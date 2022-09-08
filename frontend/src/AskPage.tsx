@@ -21,7 +21,7 @@ export const AskPage = () => {
     };
     return(
         <Page title="Ask a question">
-            <Form submitCaption="Submit Your Question Test"
+            <Form submitCaption="Submit Your Question"
             validationRules={{
                 title:[{validator:required},{validator:minLength, arg:10}],
                 content:[{validator:required},{validator:minLength, arg:50}]
